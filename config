@@ -1,0 +1,13 @@
+# 该文件用于配置私钥对应的服务器
+# Default github user(chping_2125@163.com)
+#Host git@github.com
+# HostName https://github.com
+# User git
+# IdentityFile ~/.ssh/id_rsa
+
+ # second user(second@mail.com)
+ # 建一个github别名，新建的帐号使用这个别名做克隆和更新
+Host codeup.aliyun.com
+	HostName codeup.aliyun.com
+	User 3517126309@qq.com
+	IdentityFile ~/.ssh/codeup_id_rsa
